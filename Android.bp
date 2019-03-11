@@ -3819,9 +3819,9 @@ cc_binary {
     "liblog",
     "libtraced_shared",
   ],
-  init_rc: [
-    "perfetto.rc",
-  ],
+  //init_rc: [
+  //  "perfetto.rc",
+  //],
   defaults: [
     "perfetto_defaults",
   ],
